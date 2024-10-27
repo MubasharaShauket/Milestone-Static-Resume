@@ -1,0 +1,71 @@
+
+/* General styling for span */
+span {
+    font-size: 18px;
+}
+
+/* Styling for headings */
+h1 {
+    font-size: 35px;
+    text-align: left;
+}
+
+/* Hover effects for h2 and h3 */
+h2:hover, h3:hover {
+    color: blue;
+    font-size: 24px;
+    font-weight: 350;
+}
+
+/* Main container to hold both sections side by side */
+body {
+    display: flex;
+    justify-content: center; /* Center-aligns the entire layout */
+    align-items: flex-start;
+    padding: 20px;
+    background-color: #f0f0f0;
+}
+
+/* Narrower first box for profile section */
+.First {
+    width: 20%; /* Narrower width */
+    padding: 20px;
+    margin: 5px;
+    background-color: #f9f9f9;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+}
+
+/* Wider second box for details section */
+.Second {
+    width: 30%; /* Wider width for main content */
+    padding: 20px;
+    margin: 8px;
+    background-color: #f9f9f9;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+}
+
+/* Image styling inside First */
+.First img {
+    width: 120px;
+    height: auto;
+    border-radius: 50%;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    display: block;
+    margin: 0 auto;
+}
+
+/* Center text under image */
+.First h3, .First span {
+    text-align: left;
+    margin-top: 10px;
+}
+
+/* Bold text styling */
+.bold {
+    font-weight: 600;
+}
